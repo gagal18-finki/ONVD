@@ -1,0 +1,33 @@
+.u_text {
+    text-decoration: underline;
+}
+
+.l-text {
+    text-decoration: line-through;
+}
+
+.b_text {
+    font-weight: bold;
+}
+
+.i_text {
+    font-style: italic;
+}
+
+.footer_copyright {
+    text-align: center;
+}
+
+.code_section {
+    border: 1px dashed gray;
+    color: red
+}
+
+.lang_section {
+    padding-left: 20px;
+    border-left: 2px solid lightblue
+}
+
+.t_red {
+    color: red;
+}

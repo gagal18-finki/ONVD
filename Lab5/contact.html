@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body>
+<header>
+    <div class="navbar">
+        <a class="navbar-logo" href="index.html">
+            Finki<span>Page</span>
+        </a>
+        <div class="link_wrapper">
+            <a href="index.html">HOME</a>
+            <a class="active" href="contact.html">CONTACT</a>
+            <a href="info.html">INFO</a>
+        </div>
+    </div>
+</header>
+<section>
+    <div class="container contact-form-wrapper">
+        <h1>Contact Form</h1>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div class="col">
+                <fieldset class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input placeholder="Your name..." type="text" id="firstName" name="firstName" required>
+                </fieldset>
+                <fieldset class="form-group">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob" name="dob" required placeholder="dd----yyyy">
+                </fieldset>
+
+                <fieldset class="form-group">
+                    <label for="country">Country</label>
+                    <select id="country" name="country" required>
+                        <option value="">Select Country</option>
+                        <option selected value="Macedonia">Macedonia</option>
+                        <option value="USA">USA</option>
+                        <option value="Canada">Canada</option>
+                        <option value="UK">UK</option>
+                        <option value="Australia">Australia</option>
+                    </select>
+                </fieldset>
+                <fieldset class="">
+                    <label for="cv">CV</label>
+                    <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx">
+                </fieldset>
+            </div>
+            <div class="col">
+
+                <fieldset class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input  placeholder="Your last name..." type="text" id="lastName" name="lastName" required>
+                </fieldset>
+                <fieldset class="form-group">
+                    <label for="subject">Subject</label>
+                    <textarea   placeholder="Write something..." id="subject" name="subject" rows="9" cols="50" required></textarea>
+                </fieldset>
+            </div>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</section>
+
+</body>
+</html>

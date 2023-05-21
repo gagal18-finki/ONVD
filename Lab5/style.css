@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*NAVBAR*/
+.navbar {
+    width: 100%;
+    max-width: 1380px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.navbar-logo {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-logo span {
+    color: #7ddf9d;
+}
+
+.link_wrapper a {
+    text-decoration: none;
+    color: #505978;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 24px;
+}
+
+.link_wrapper a.active {
+    background-color: #505978;
+    color: #fff;
+    border-radius: 3px;
+}
+
+/*SECTION*/
+section {
+    min-height: 100vh;
+    background-color: #7ddf96;
+}
+
+.container {
+    width: 100%;
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+.py-100 {
+    padding: 100px 0;
+}
+
+/*TABLE*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 3px;
+    text-align: center;
+}
+
+/*CONTACT FORM*/
+
+.contact-form-wrapper h1, .frame-wrapper h1 {
+    text-align: center;
+    font-size: 24px;
+    padding: 25px 0;
+    margin: unset;
+    font-weight: 600;
+
+}
+
+.contact-form-wrapper form {
+    border-radius: 5px;
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.contact-form-wrapper .col {
+    width: 50%;
+}
+
+.contact-form-wrapper fieldset {
+    border: none;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form-wrapper form input:not(#cv), .contact-form-wrapper form select, .contact-form-wrapper form textarea {
+    padding: 10px 5px;
+    border: 1px solid #acacac;
+    border-radius: 5px;
+}
+
+.contact-form-wrapper form input[type="submit"] {
+    width: 50%;
+    border-radius: 5px;
+    color: white;
+    background-color: #04aa6d;
+    border: none;
+    padding: 10px;
+}
+
+/*FRAME*/
+.frame-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.frame-wrapper iframe {
+    height: 80vh;
+}
+
